@@ -16,4 +16,74 @@ body {
   background-color: $BG_gray;
   font-family: $bodyFont;
   font-size: 1.4em;
+  width: 100%
 }
+
+.hover_block {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid #999;
+  background-size: 100% 100%;
+  cursor: hand;
+  .headlines {
+      position: absolute;
+      top: 130px;
+      width: 250px;
+      height: 30px;
+      overflow: hidden;
+      z-index: 777;
+    h2 {
+      position: relative;
+      color: #FFF;
+      font-family: 'Passion One', cursive;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 36px;
+      width: 100%;
+      text-align: center;
+      margin: 0 0 -8px 0;
+    }
+    .primary {
+
+    }
+    .secondary {
+      color: #036699;
+    }
+
+  }
+  h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 250px;
+    position: absolute;
+    color: #333;
+    top: 165px;
+    text-align: center;
+  }
+  .gradient_fade{
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(75%,rgba(0,0,0,0.65)));
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 75%);
+    background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 75%);
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 75%);
+    background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 );
+  }
+    
+}
+
+#falls_rainbow {
+  background: url('../images/waterfall_rainbowFalls.jpg') no-repeat center center;
+}
+
+.container {
+  width: 100%;
+  margin: 50px;
+}
+
