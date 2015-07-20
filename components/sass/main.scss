@@ -26,6 +26,7 @@ body {
   border: 1px solid #999;
   background-size: 100% 100%;
   cursor: hand;
+  border: 1px solid #000;
   .headlines {
       position: absolute;
       top: 130px;
@@ -43,6 +44,7 @@ body {
       width: 100%;
       text-align: center;
       margin: 0 0 -8px 0;
+      opacity: 0.85;
     }
     .primary {
 
